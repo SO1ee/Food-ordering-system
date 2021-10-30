@@ -1,0 +1,211 @@
+<style>
+   /* .fmjsHI{
+      height: 3px;
+    }
+   .kisDCD {
+    background: rgb(226, 55, 68);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(226, 55, 68);
+    top: 0px;
+    pointer-events: none;
+    user-select: none;
+    height: 2px;
+    z-index: 20000000;
+    position: fixed;
+    left: 0px;
+    width: 0px;
+    opacity: 1;
+    contain: content;
+}*/
+     .hHwmbF {
+    position: relative;
+    margin-bottom: 4rem;
+}
+.YPCnq {
+    background: rgb(200, 200, 200);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(200, 200, 200);
+    height: calc(100vh - 30rem);
+    min-height: 42rem;
+    max-height: 57rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.YPCnq .low-res-container {
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 1.4s ease 0s;
+    transition-property: all;
+    transition-duration: 1.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 1;
+}
+.YPCnq .low-res-image {
+    filter: blur(20px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+    object-fit: cover;
+    border: 0px;
+    border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+.YPCnq .high-res-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+    transition-property: all;
+    transition-duration: 1.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.hHwmbF .contents-wrapper {
+    position: absolute;
+    bottom: calc(50% - 11.1rem);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+.fgDZcL {
+    background: transparent;
+        background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+    height: 6rem;
+    max-height: none;
+    width: 30rem;
+    position: relative;
+}
+.fgDZcL .low-res-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 1.4s ease 0s;
+    transition-property: all;
+    transition-duration: 1.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 0;
+}
+.fgDZcL .low-res-image {
+    filter: blur(4px);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transform: none;
+    object-fit: contain;
+    border: 0px;
+        border-top-color: initial;
+    border-top-style: initial;
+    border-top-width: 0px;
+    border-right-color: initial;
+    border-right-style: initial;
+    border-right-width: 0px;
+    border-bottom-color: initial;
+    border-bottom-style: initial;
+    border-bottom-width: 0px;
+    border-left-color: initial;
+    border-left-style: initial;
+    border-left-width: 0px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+}
+.fgDZcL .high-res-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    transform: none;
+    opacity: 1;
+    transition: all 1.4s ease 0s;
+    transition-property: all;
+    transition-duration: 1.4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.hHwmbF .contents-wrapper .description {
+    margin-top: 3rem;
+    color: white;
+    text-align: center;
+    font-size: 3.6rem;
+}
+.hHwmbF .contents-wrapper .searchContainer {
+    border-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    margin-top: 3rem;
+}
+</style>
