@@ -3,4 +3,4 @@ It is a web application . Intended to be used by users for ordering food online 
 Technologies are used 
 HTML ,CSS , BOOTSTRAP , PHP , SQL 
 <img src="https://user-images.githubusercontent.com/90699287/141806918-16247dd4-91b2-4d91-b363-adc0ce57e3dc.jpg" style=height:900px;width:600px;>
-<img src="https://user-images.githubusercontent.com/90699287/141808085-9dc3c671-033f-4226-b5fd-d1820c5b8ee4.png"">
+<img src="https://user-images.githubusercontent.com/90699287/141808085-9dc3c671-033f-4226-b5fd-d1820c5b8ee4.png">
